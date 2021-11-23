@@ -1,2 +1,1 @@
-# DATA STRUCTURES
-1. PRINTING LIST INTEGER
+# 0x02. Python - Data Structures: Lists, Tuples
