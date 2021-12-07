@@ -16,4 +16,3 @@ def safe_print_division(a, b):
 
         print("{}{}".format("Inside result: ", quotient))
         return quotient
-        
