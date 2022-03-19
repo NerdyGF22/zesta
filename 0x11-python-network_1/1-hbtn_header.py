@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/python3
 """
 Write a Python script that takes in a URL, sends a request to
 the URL and displays
@@ -13,8 +13,7 @@ def main():
     """ sends a request to the url"""
     url = sys.argv[1]
     with urlopen(url) as response:
-        pass
-    print(response.headers['X-Request-Id'])
+        print(response.headers['X-Request-Id'])
 
 
 if __name__ == "__main__":
