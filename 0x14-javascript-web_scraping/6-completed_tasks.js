@@ -8,6 +8,7 @@ request(url, (error, response, body) => {
     return;
   }
   const todos = JSON.parse(body);
+  console.log(todos);
   const ret = {};
   for (let i = 0; i < todos.length; i++) {
     const id = (todos[i]).userId;
